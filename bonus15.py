@@ -22,4 +22,4 @@ for index, question in enumerate(data):
     if question['user_choice'] == question['correct_answer']:
         score += 1
 
-print(score,'/',len(data))
+print(score,'-',len(data))
